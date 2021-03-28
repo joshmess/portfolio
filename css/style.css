@@ -55,7 +55,7 @@ canvas{
 }
 
 .heading {
-    position: absolute;
+    position: fixed;
     text-align: center;
     top: 30%;
     width: 100%;
@@ -67,6 +67,23 @@ canvas{
 .heading h3 {
     color: wheat;
     font-size: 20px;
+}
+
+.education {
+  position: fixed;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+}
+
+.education h2{
+  color: red;
+  font-size: 50px;
+}
+
+.education ul{
+  color: wheat;
+  font-size: 30px;
 }
 
 #particles-js{
