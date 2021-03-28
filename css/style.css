@@ -188,3 +188,70 @@ canvas{
     text-decoration: none;
     cursor: pointer;
 }
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 2px solid black;
+    background-color: silver;
+}
+
+#socialsBox{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+}
+  
+.fa-linkedin { 
+    color: white;
+    background: #007bb5;
+}
+  
+.fa-instagram { 
+    background: #E1306C;
+    color: white;
+}
+  
+.fa-github { 
+    background: #000000; 
+    color: white;
+}
+  
+.fa-reddit{ 
+    background: #ff5700;
+    color: white;
+}
+  
+#socials{
+    list-style-type: none;
+}
+  
+#socials li{
+    display: inline;
+    float: left;
+    
+}
+  
+#socials li a{
+      text-align: center;
+      text-decoration: none;
+}
+  
+#socials li a:hover {
+    color: white;
+    transition: all 0.5s ease;
+}
+  
+#socials li a:hover {
+    transform: translateY(-10px);
+}
