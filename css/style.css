@@ -95,10 +95,3 @@ canvas{
   background-repeat: no-repeat;
 }
 
-footer{
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    border-top: 2px solid black;
-    background-color: silver;
-}
