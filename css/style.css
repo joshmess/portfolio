@@ -271,9 +271,3 @@ footer{
     border: 1px solid silver;
     color: silver;
 }
-
-.arrow {
-    position: absolute;
-    color: white;
-    bottom: 12.5%;
-  }
