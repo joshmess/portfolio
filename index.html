@@ -4,23 +4,64 @@
   <meta charset="utf-8">
   <title>Josh Messitte</title>
   <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" media="screen" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
+
 <body>
-  
-  
-<!-- count particles -->
-<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div>
+
+
+  <div id="home"></div>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-gradient">
+            <a class="navbar-brand" id="logo" href="#home">&lt;josh messitte /&gt;</a>
+            <div class="navbar-text" id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a class="link" href="#home"><li>Home</li></a>
+                    <a class="link" href="#about"><li>About</li></a>
+                    <a class="link" href="#experience"><li>Experience</li></a>
+                    <a class="link" href="#projects"><li>Projects</li></a>
+                    <a class="link" href="Resume/Joshua-Messitte-Resume.pdf" download><li>Resume</li></a>
+                    <a id="contactBtn" class="link" href="#"><li>Contact</li></a>
+                </ul>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>
+                        Reach out to me at <a href = "mailto: jwm13945@uga.edu">Joshua.Messitte@uga.edu</a>.
+                    </p>
+                </div>
+            </div>
+        </nav>
+
+
 
 <!-- particles.js container -->
 <div id="particles-js">
   
   <div class="heading">
-            <h1>Josh Messitte</h1>
-            <h3>Computer Science Masters Student</h3>
-        </div>
+    <h1>Josh Messitte</h1>
+    <h3>Computer Science Masters Student</h3>
+  </div>
+
+  <div class="aboutMe">
+    <img id="profilepic" src="img/me.jpg">
+    <div id="greetingDiv">
+      <p id="greeting">
+        <a class="typewrite" data-period="2000" data-type='[ "Hi, I&apos;m David.", "I am driven.", "I am strategic.", "I am attentive.", "I am results-oriented.", "I am multifaceted.", "I am creative.", "I am passionate." ]'>
+          <span class="wrap"></span>
+        </a>
+      </p>
+    </div>
+  </div>
+
 </div>
 
 <!-- scripts -->
