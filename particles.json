@@ -11,7 +11,7 @@
         "value": "#1a1a1a"
       },
       "shape": {
-        "type": "polygon",
+        "type": ["star","circle","triangle"],
         "stroke": {
           "width": 0,
           "color": "#1a1a1a"
