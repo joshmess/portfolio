@@ -56,7 +56,7 @@ body{
 } 
   
 .typewrite{
-    color: white !important;
+    color: #1a1a1a !important;
     font-size: 140%; 
 }
 
@@ -258,10 +258,12 @@ body{
     margin-right: auto;
     margin-bottom: 15px;
     max-width: 650px;
+    color: #1a1a1a;
 }
 
 #paragraph3{
     margin-bottom: 35px;
+    color: #1a1a1a;
 }
 
 #resumeButton{
@@ -308,16 +310,19 @@ body{
 
 #projectSubtitle{
     font-weight: normal;
+    color: #1a1a1a;
 }
 
 #projectDescription{
     font-size: 100%;
     margin-bottom: 35px;
+    color: #1a1a1a;
 }
 
 #projectDescription li{
     max-width: 400px;
     word-wrap: break-word;
+    color: #1a1a1a;
 }
 
 footer{
