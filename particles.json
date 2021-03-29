@@ -54,7 +54,7 @@
       },
       "move": {
         "enable": true,
-        "speed": 2,
+        "speed": 2.25,
         "direction": "none",
         "random": true,
         "straight": false,
