@@ -55,7 +55,7 @@ canvas{
 }
 
 .heading {
-    position: fixed;
+    position: relative;
     text-align: center;
     top: 30%;
     width: 100%;
@@ -70,9 +70,9 @@ canvas{
 }
 
 .education {
-  position: fixed;
+  position: relative;
   text-align: center;
-  top: 100px;
+  top: 150%;
   
 }
 
