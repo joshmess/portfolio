@@ -349,6 +349,11 @@ footer{
     border-radius: 10%;
 }
   
+.fa-facebook { 
+    color: white;
+    background: #4267B2;
+}
+
 .fa-linkedin { 
     color: white;
     background: #007bb5;
