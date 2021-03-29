@@ -8,7 +8,7 @@
         }
       },
       "color": {
-        "value": "#1a1a1a"
+        "value": "random"
       },
       "shape": {
         "type": "polygon",
