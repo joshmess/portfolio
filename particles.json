@@ -49,7 +49,7 @@
         "enable": true,
         "distance": 40,
         "color": "#1a1a1a",
-        "opacity": 0.17609156761515996,
+        "opacity": 0.17909156761515996,
         "width": 1
       },
       "move": {
@@ -71,11 +71,11 @@
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "grab"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "push"
         },
         "resize": true
