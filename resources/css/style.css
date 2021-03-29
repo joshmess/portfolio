@@ -286,6 +286,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    color: #1a1a1a;
 }
 
 #projectRow, #projectRowTop, #projectRowMiddle, #projectRowBottom{
