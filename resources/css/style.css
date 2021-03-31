@@ -359,6 +359,11 @@ footer{
     background: #007bb5;
 }
 
+.fa-reddit{ 
+    background: #ff5700;
+    color: white;
+}
+
 .fa-youtube { 
     color: white;
     background: #e52d27;
