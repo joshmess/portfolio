@@ -11,7 +11,7 @@
         "value": "#1a1a1a"
       },
       "shape": {
-        "type": "circle",
+        "type": "triangle",
         "stroke": {
           "width": 0,
           "color": "#1a1a1a"
@@ -47,7 +47,7 @@
       },
       "line_linked": {
         "enable": true,
-        "distance": 85,
+        "distance": 100,
         "color": "#1a1a1a",
         "opacity": 0.17909156761515996,
         "width": 1
