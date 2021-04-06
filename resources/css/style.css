@@ -11,7 +11,7 @@ body{
     max-width: 100% !important;
     max-height: 100% !important;
     color: #cdcdcd;
-    font-family: "Courier New", "Courier", monospace;
+    font-family: "DejaVu Sans Mono", monospace;
 }
   
 #particles-js{
@@ -23,6 +23,7 @@ body{
 
 #logo{
     color: #ff7f50;
+    font : "Courier New", "Courier", monospace;
 }
 
 #me{
