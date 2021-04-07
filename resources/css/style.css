@@ -22,7 +22,7 @@ body{
 }
 
 #logo{
-    color: #CD5C5C;
+    color: #9370DB;
     font : "Courier New", "Courier", monospace;
     font-style: oblique;
 }
@@ -60,12 +60,11 @@ body{
 .typewrite{
     color: #1a1a1a !important;
     font-size: 225%; 
-    font-weight: bold;
 }
 
 .arrow {
     position: absolute;
-    color: #CD5C5C;
+    color: #9370DB;
     bottom: 12.5%;
   }
   
@@ -130,7 +129,7 @@ body{
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #cdcdcd;
+    background: #9370DB;
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
