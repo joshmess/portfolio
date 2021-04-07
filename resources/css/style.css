@@ -24,6 +24,7 @@ body{
 #logo{
     color: #FF7F50;
     font : "Courier New", "Courier", monospace;
+    font-style: oblique;
 }
 
 #me{
@@ -59,6 +60,7 @@ body{
 .typewrite{
     color: #1a1a1a !important;
     font-size: 175%; 
+    font-weight: bold;
 }
 
 .arrow {
