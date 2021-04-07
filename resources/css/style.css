@@ -57,7 +57,9 @@ body{
     color: #1a1a1a;
 } 
   
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 .typewrite{
+    font-family: 'Quicksand', monospace;
     color: #1a1a1a !important;
     font-size: 225%; 
 }
