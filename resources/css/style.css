@@ -203,7 +203,7 @@ body{
   
 .modal-content {
     text-align: center;
-    background-color: black;
+    background-color: #f0f8ff;
     margin-top: max(20%, 220px);
     margin-left: auto;
     margin-right: auto;
