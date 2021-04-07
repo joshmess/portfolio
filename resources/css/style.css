@@ -43,7 +43,7 @@ body{
     height: 10%;
     min-width: 150px;
     min-height: 150px;
-    border: 3px solid #CD5C5C;
+    border: 3px solid #1a1a1a;
     border-radius: 100%;
   }
   
@@ -58,7 +58,7 @@ body{
 } 
   
 .typewrite{
-    color: #CD5C5C !important;
+    color: #1a1a1a !important;
     font-size: 225%; 
     font-weight: bold;
 }
