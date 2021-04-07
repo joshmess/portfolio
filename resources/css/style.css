@@ -22,7 +22,7 @@ body{
 }
 
 #logo{
-    color: #DC143C;
+    color: #FF7F50;
     font : "Courier New", "Courier", monospace;
 }
 
@@ -57,7 +57,7 @@ body{
 } 
   
 .typewrite{
-    color: #DC143C !important;
+    color: #1a1a1a !important;
     font-size: 175%; 
 }
 
