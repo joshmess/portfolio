@@ -60,8 +60,9 @@ body{
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 .typewrite{
     font-family: 'Quicksand', monospace;
-    color: #1a1a1a !important;
+    color: #696969 !important;
     font-size: 225%; 
+    font-weight: bold;
 }
 
 .arrow {
