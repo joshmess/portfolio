@@ -367,8 +367,8 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0;
-    border-top: 2px solid #9370db;
-    background-color: #9370db;
+    border-top: 2px solid #1a1a1a;
+    background-color: #1a1a1a;
 }
 
 #socialsBox{
