@@ -272,14 +272,14 @@ body{
 }
 
 #labButton{
-    border: 1px solid #1a1a1a;
+    border: 1px solid #0000CD;
     padding: 5px 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f0f8ff;
+    background-color: #0000CD;
     border-radius: 10%;
     text-decoration: none;
-    color: #1a1a1a;
+    color: #f0f8ff;
 }
 
 #labButton:hover{
@@ -288,14 +288,14 @@ body{
 }
 
 #missionButton{
-    border: 1px solid #1a1a1a;
+    border: 1px solid #0000CD;
     padding: 5px 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f0f8ff;
+    background-color: #0000CD;
     border-radius: 10%;
     text-decoration: none;
-    color: #1a1a1a;
+    color: #f0f8ff;
 }
 
 #missionButton:hover{
@@ -305,14 +305,14 @@ body{
   
 
 #resumeButton{
-    border: 1px solid #1a1a1a;
+    border: 1px solid #0000CD;
     padding: 5px 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f0f8ff;
+    background-color: #0000CD;
     border-radius: 10%;
     text-decoration: none;
-    color: #1a1a1a;
+    color: #f0f8ff;
 }
   
 #resumeButton:hover{
