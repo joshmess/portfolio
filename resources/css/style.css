@@ -61,8 +61,7 @@ body{
 .typewrite{
     font-family: 'Quicksand', monospace;
     color: #696969 !important;
-    font-size: 225%; 
-    font-weight: bold;
+    font-size: 125%; 
 }
 
 .arrow {
@@ -248,6 +247,11 @@ body{
     min-width: 150px;
     min-height: 150px;
     border: 3px solid #1a1a1a;
+}
+
+#hello{
+    font-weight: bold;
+    font-size: 225%;
 }
 
 #aboutMeText{
