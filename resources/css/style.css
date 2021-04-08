@@ -302,14 +302,111 @@ body{
     border: 1px solid silver;
     color: silver;
 }
-  
 
-#resumeButton{
+#boozButton{
     border: 1px solid #0000CD;
     padding: 5px 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: #0000CD;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+#boozButton:hover{
+    border: 1px solid silver;
+    color: silver;
+}
+
+#vcButton{
+    border: 1px solid #BA0C2F;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BA0C2F;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+#vcButton:hover{
+    border: 1px solid silver;
+    color: silver;
+}
+  
+#daeButton{
+    border: 1px solid #BA0C2F;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BA0C2F;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+#daeButton:hover{
+    border: 1px solid silver;
+    color: silver;
+}
+
+#ticButton{
+    border: 1px solid #FFA500;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFA500;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+#ticButton:hover{
+    border: 1px solid silver;
+    color: silver;
+}
+
+#impactButton{
+    border: 1px solid #BA0C2F;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BA0C2F;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+#impactButton:hover{
+    border: 1px solid silver;
+    color: silver;
+}
+
+#sixpointsButton{
+    border: 1px solid #191970;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #191970;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+#sixpointsButton:hover{
+    border: 1px solid silver;
+    color: silver;
+}
+  
+  
+
+#resumeButton{
+    border: 1px solid #191970;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #191970;
     border-radius: 10%;
     text-decoration: none;
     color: #f0f8ff;
