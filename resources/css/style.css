@@ -372,6 +372,27 @@ footer{
     background-color: #1a1a1a;
 }
 
+.python {
+  background-color: darkblue !important;
+}
+
+.assembly {
+  background-color: darkred !important;
+}
+
+.javascript {
+  background-color: darksalmon !important;
+}
+
+.shell {
+  background-color: darkgreen !important;
+}
+
+.progress {
+  height: 5%;
+}
+
+
 #socialsBox{
     margin-left: auto;
     margin-right: auto;
