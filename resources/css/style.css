@@ -307,6 +307,22 @@ body{
     color: silver;
 }
 
+#ugahacksButton{
+    border: 1px solid #BA0C2F;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BA0C2F;
+    border-radius: 10%;
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+#ugahacksButton:hover{
+    border: 1px solid silver;
+    color: silver;
+}
+
 #boozButton{
     border: 1px solid #0000CD;
     padding: 5px 10px;
