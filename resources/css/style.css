@@ -527,12 +527,12 @@ footer{
   
 .fa-facebook { 
     color: white;
-    background: #4267B2;
+    background: #808080;
 }
 
 .fa-linkedin { 
     color: white;
-    background: #007bb5;
+    background: #808080;
 }
 
 .fa-reddit{ 
@@ -547,17 +547,17 @@ footer{
 
   
 .fa-instagram { 
-    background: #E1306C;
+    background: #808080;
     color: white;
 }
   
 .fa-github { 
-    background: #000000; 
+    background: #808080; 
     color: white;
 }
   
 .fa-twitter{ 
-    background: #1da1f2;
+    background: #808080;
     color: white;
 }
   
