@@ -505,6 +505,16 @@ footer{
     border-radius: 10%;
 }
   
+
+.fa-twitter { 
+    color: white;
+    background: #808080;
+}
+
+.fa-twitter:hover{
+    background: #6CADDE ;
+}
+
 .fa-facebook { 
     color: white;
     background: #808080;
