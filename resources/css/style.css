@@ -489,26 +489,6 @@ footer{
     background-color: #1a1a1a;
 }
 
-.python {
-  background-color: darkblue !important;
-}
-
-.assembly {
-  background-color: darkred !important;
-}
-
-.javascript {
-  background-color: darksalmon !important;
-}
-
-.shell {
-  background-color: darkgreen !important;
-}
-
-.progress {
-  height: 5%;
-}
-
 
 #socialsBox{
     margin-left: auto;
@@ -530,35 +510,36 @@ footer{
     background: #808080;
 }
 
+.fa-facebook:hover{
+    background: #43609C;
+}
+
 .fa-linkedin { 
     color: white;
     background: #808080;
 }
 
-.fa-reddit{ 
-    background: #ff5700;
-    color: white;
+.fa-linkedin:hover{
+    background: #0072b1;
 }
 
-.fa-youtube { 
-    color: white;
-    background: #e52d27;
-}
-
-  
 .fa-instagram { 
     background: #808080;
     color: white;
 }
+
+.fa-instagram:hover{
+    background: #E1306C;
+}
+  
   
 .fa-github { 
     background: #808080; 
     color: white;
 }
-  
-.fa-twitter{ 
-    background: #808080;
-    color: white;
+
+.fa-github:hover{
+    background: black;
 }
   
 #socials{
