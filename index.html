@@ -498,8 +498,14 @@
                     <div class="row no-gutters" id="projectRowTop">
                         <img class="project" id="projectGIF" src="resources/img/multicastgif.gif" width="380" height="255">
                     </div>
+                    <div id="socialsBox">
+                        <ul id="socials">
+                            <li><a href="https://github.com/joshmess/persistent_aysnchronous_mc" class="fa fa-github"></a></li>
+                            <li id="space"><p>****</p></li>
+                        </ul>
+                    </div>
                     <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">Concurrency Package</h4>
+                        <h4 id="projectTitle" style="color: #1a1a1a">Persistent and Asynchronous Multicast System</h4>
                     </div>
                     <div class="row no-gutters" id="projectRowMiddle">
                         <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Distributed Computing Systems | Spring 2021</i></h6>
@@ -507,16 +513,18 @@
                     <div class="row no-gutters" id="projectRowBottom">
                         <ul id="projectDescription" type="square">
                             <li>
-                                Persistent, asynchronous multicasting tool that accepts high volumes of participants. (See GitHub).
+                                A system for supporting persistent asynchronous multicast on top of TCP. This is based on a coordinator-participant paradigm. This project implements both
+                                the mutlicast Coordinator and Participants.
                             </li>
                             <li>
-                                Threaded File Transport Protocol client-server system which allows out-of-band data transmission.
+                                Implements temporally-bound persistence, in which if a participant is offline more than some specified time threshold
+                                (say t), upon reconnecting, it will receive messages that were sent in the past t seconds.
                             </li>
                             <li>
-                                Consistent-Hashing-Based Naming Service which implements normal nameservers and a bootstrap server.
+                                Multicast participant supports a UI thread to register and deregister, along with sending multicasting messages.
                             </li>
                             <li>
-                                <b>Java</b>
+                                <b>Technology Stack: Java</b>
                             </li>
                         </ul>
                     </div>
