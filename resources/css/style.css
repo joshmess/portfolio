@@ -526,8 +526,23 @@ footer{
 .fa-star { 
     color: #808080;
     padding: 2px;
-    font-size: 20px;
-    width: 20px;
+    font-size: 17px;
+    width: 17px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+}
+
+.checked {
+    color: orange;
+}
+
+.fa-star-half { 
+    color: #808080;
+    padding: 2px;
+    font-size: 17px;
+    width: 17px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
