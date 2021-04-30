@@ -523,6 +523,15 @@ footer{
     background: #000000 ;
 }
 
+.fa-link { 
+    color: white;
+    background: #808080;
+}
+
+.fa-link:hover{
+    background: #000000 ;
+}
+
 .fa-twitter { 
     color: white;
     background: #808080;
