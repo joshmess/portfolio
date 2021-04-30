@@ -539,6 +539,47 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="row no-gutters" id="projectRow">
+                    <div class="row no-gutters" id="projectRowTop">
+                        <img class="project" id="projectGIF" src="resources/img/cosmo.png" width="300" height="298">
+                    </div>
+                    <div class="row no-gutters" id="projectRowMiddle">
+                        <h4 id="projectTitle" style="color: #1a1a1a;">Center For Orbital Satellite Mission Operations (COSMO)</h4>
+                    </div>
+                    <div id="socialsBox">
+                        <ul id="socials">
+                            <li><a href="http://www.smallsat.uga.edu/about" class="fa fa-link"></a></li>
+                            <li id="space"><p>****</p></li>
+                        </ul>
+                    </div>
+                    <div class="row no-gutters" id="projectRowMiddle">
+                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Ground Station</i> | UGA SSRL</h6>
+                    </div>
+                    <div class="row no-gutters" id="projectRowBottom">
+                        <ul id="projectDescription" type="square">
+                            <li>
+                                COSMO is UGA's ground station for missions at the SSRL. The current misssion is the MOCI misison (more below).
+                            </li>
+                            <li>
+                                Currently, the <b>Orbit</b> software suite is being implemented by myself and the mission operations team for the COSMO station. 
+                            </li>
+                            <li>
+                                Orbit will use the Yamcs Server and web interface for our mission database and dashboard. 
+                            </li>
+                            <li>
+                               Orbit, along with our hardware workstation located on the roof of UGA's Geography & Geology Building, will provide full uplink and downlink capabilities with the MOCI satellite while in low-earth-orbit. It will also provide telemetry and data visualization.
+                            </li>
+                            <li>
+                                As team lead I work technically on COSMO and oversee the delegation of other tasks. 
+                            </li>
+                            <li>
+                                <b>Technology Stack: Java, Gpredict, GNURadion, Systems Tool Kit (STK), Yamcs Server, Yamcs Studio</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div class="row no-gutters" id="projectRow">
                     <div class="row no-gutters" id="projectRowTop">
                         <img class="project" id="projectGIF" src="resources/img/traceroute.png" width="340" height="260">
@@ -593,13 +634,48 @@
                     <div class="row no-gutters" id="projectRowBottom">
                         <ul id="projectDescription" type="square">
                             <li>
-                                TCP SYN packets are used as a secure alternative to UDP pings in my implementation of traceroute.
+                                Parallel HTTP Range requests are used in an architecture that significantly increases standard HTTP download times.
                             </li>
                             <li>
-                                Repository also has a ICMP version of traceroute.
+                                Scapy module used for network communication programming.
                             </li>
                             <li>
-                                Plotly used to generate latency graphics.
+                                UDP packets sent.
+                            </li>
+                            <li>
+                                <b>Technology Stack: Pytohn, Linux, Scapy, Plotly</b>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row no-gutters" id="projectRow">
+                    <div class="row no-gutters" id="projectRowTop">
+                        <img class="project" id="projectGIF" src="resources/img/computer-networks.jpg" width="380" height="253">
+                    </div>
+                    
+                    <div class="row no-gutters" id="projectRowMiddle">
+                        <h4 id="projectTitle" style="color: #1a1a1a">DOH-Capable DNS Forwarder</h4>
+                    </div>
+                    <div id="socialsBox">
+                        <ul id="socials">
+                            <li><a href="https://github.com/joshmess/download-accelerator" class="fa fa-code"></a></li>
+                            <li id="space"><p>****</p></li>
+                        </ul>
+                    </div>
+                    <div class="row no-gutters" id="projectRowMiddle">
+                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Computer Networks | Fall 2020</i></h6>
+                    </div>
+                    <div class="row no-gutters" id="projectRowBottom">
+                        <ul id="projectDescription" type="square">
+                            <li>
+                                This project uses Python to build a simple DNS forwarder with domain blocking and DoH capabilities. 
+                                This DNS forwarder receives an arbitrary DNS message from a client, checks if the domain name should be blocked, and if so responds with an NXDomain message. 
+                                If the queried domain name is allowed, it forwards the DNS message to either a standard DNS resolver or a DoH-capable resolver and wait for the response from 
+                                the resolver and forward it back to the client.
+                            </li>
+                            <li>
+                                Scapy module used for network communication programming.
                             </li>
                             <li>
                                 <b>Technology Stack: Pytohn, Linux, Scapy, Plotly</b>
@@ -608,39 +684,7 @@
                     </div>
                 </div>
                
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/cosmo.png" width="300" height="298">
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a;">Center For Orbital Satellite Mission Operations (COSMO)</h4>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Ground Station</i> | UGA SSRL</h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                COSMO is UGA's ground station for missions at the SSRL. The current misssion is the MOCI misison (more below).
-                            </li>
-                            <li>
-                                Currently, the <b>Orbit</b> software suite is being implemented by myself and the mission operations team for the COSMO station. 
-                            </li>
-                            <li>
-                                Orbit will use the Yamcs Server and web interface for our mission database and dashboard. 
-                            </li>
-                            <li>
-                               Orbit, along with our hardware workstation located on the roof of UGA's Geography & Geology Building, will provide full uplink and downlink capabilities with the MOCI satellite while in low-earth-orbit. It will also provide telemetry and data visualization.
-                            </li>
-                            <li>
-                                As team lead I work technically on COSMO and oversee the delegation of other tasks. 
-                            </li>
-                            <li>
-                                <b>Technology Stack: Java, Gpredict, GNURadion, Systems Tool Kit (STK), Yamcs Server, Yamcs Studio</b>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+               
 
                 <div class="row no-gutters" id="projectRow">
                     <div class="row no-gutters" id="projectRowTop">
