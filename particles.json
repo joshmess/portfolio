@@ -11,7 +11,7 @@
         "value": "#1a1a1a"
       },
       "shape": {
-        "type": "triangle",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#1a1a1a"
@@ -54,7 +54,7 @@
       },
       "move": {
         "enable": true,
-        "speed": 2.15,
+        "speed": 2,
         "direction": "none",
         "random": true,
         "straight": false,
