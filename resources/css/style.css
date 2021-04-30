@@ -523,6 +523,15 @@ footer{
     background: #000000 ;
 }
 
+.fa-star { 
+    color: #808080;
+}
+
+.fa-star:checked{
+    background: black ;
+}
+
+
 .fa-file { 
     color: white;
     background: #808080;
