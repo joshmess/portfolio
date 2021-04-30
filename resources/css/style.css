@@ -505,6 +505,23 @@ footer{
     border-radius: 10%;
 }
   
+.fa-code { 
+    color: white;
+    background: #808080;
+}
+
+.fa-code:hover{
+    background: #000000 ;
+}
+
+.fa-envelope { 
+    color: white;
+    background: #808080;
+}
+
+.fa-envelope:hover{
+    background: #000000 ;
+}
 
 .fa-twitter { 
     color: white;
