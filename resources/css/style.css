@@ -531,6 +531,10 @@ footer{
     background: black ;
 }
 
+.checked {
+    color: orange;
+}
+
 
 .fa-file { 
     color: white;
