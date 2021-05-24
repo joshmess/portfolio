@@ -102,7 +102,7 @@ body{
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 .navbar{
-    background-color: transparent;
+    background-color: #000000;
     font-family: 'Poppins', sans-serif;
     color: #1a1a1a !important;
 }
