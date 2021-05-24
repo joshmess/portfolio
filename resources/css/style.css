@@ -119,6 +119,10 @@ nav ul{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase; 
 }
+
+nav ul a:hover{
+    color:firebrick
+}
   
 #menuToggle{
     display: block;
