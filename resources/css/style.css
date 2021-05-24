@@ -99,6 +99,13 @@ body{
 .link:hover{
     color: #32cd32;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.navbar{
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: #1a1a1a !important;
+}
   
 #menuToggle{
     display: block;
