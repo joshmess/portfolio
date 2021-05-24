@@ -106,6 +106,19 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #1a1a1a !important;
 }
+
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    margin-right: 10px;
+}
+
+nav ul{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase; 
+}
   
 #menuToggle{
     display: block;
