@@ -120,10 +120,6 @@ nav ul{
     text-transform: uppercase; 
 }
 
-nav ul a:hover{
-    color:firebrick
-}
-  
 #menuToggle{
     display: block;
     position: absolute;
