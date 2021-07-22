@@ -42,6 +42,7 @@ body{
     width: 10%;
     height: 10%;
     min-width: 150px;
+    border: 3px solid transparent;
     border-radius: 100%;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
     border-image-slice: 1;
