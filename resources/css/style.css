@@ -42,7 +42,7 @@ ul.navbar a:hover {color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 2
 
 #profilepic{
     
-    border: 5px solid transparent;
+    border: 3px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
     height: 200px;
@@ -534,7 +534,7 @@ footer{
   
 .fa-code { 
     
-    color: white;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     background: #808080;
 
     padding: 5px;
@@ -600,7 +600,7 @@ ul.no-bullets {
 
 
 .fa-file { 
-    color: white;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     background: #808080;
 }
 
@@ -610,7 +610,7 @@ ul.no-bullets {
 }
 
 .fa-link { 
-    color: white;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     background: #808080;
 
     padding: 5px;
@@ -628,7 +628,7 @@ ul.no-bullets {
 }
 
 .fa-twitter { 
-    color: white;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     background: #808080;
 }
 
@@ -638,7 +638,7 @@ ul.no-bullets {
 }
 
 .fa-facebook { 
-    color: white;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     background: #808080;
 }
 
@@ -648,7 +648,7 @@ ul.no-bullets {
 }
 
 .fa-linkedin { 
-    color: white;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     background: #808080;
 }
 
@@ -659,7 +659,7 @@ ul.no-bullets {
 
 .fa-instagram { 
     background: #808080;
-    color: white;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
 }
 
 .fa-instagram:hover{
@@ -670,7 +670,7 @@ ul.no-bullets {
   
 .fa-github { 
     background: #808080; 
-    color: white;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
 }
 
 .fa-github:hover{
