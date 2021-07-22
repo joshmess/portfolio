@@ -42,7 +42,7 @@ body{
     width: 10%;
     height: 10%;
     min-width: 150px;
-    border: 5px solid transparent;
+    border: 3px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-radius: 50%;
     border-image-slice: 1;
@@ -588,7 +588,7 @@ ul.no-bullets {
 }
 
 .checked {
-    color: orange;
+    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
 
 
@@ -598,7 +598,7 @@ ul.no-bullets {
 }
 
 .fa-file:hover{
-    background: #000000 ;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%)  ;
 }
 
 .fa-link { 
@@ -615,7 +615,7 @@ ul.no-bullets {
 }
 
 .fa-link:hover{
-    background: black ;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%)  ;
 }
 
 .fa-twitter { 
@@ -633,7 +633,7 @@ ul.no-bullets {
 }
 
 .fa-facebook:hover{
-    background: #43609C;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
 
 .fa-linkedin { 
@@ -642,7 +642,7 @@ ul.no-bullets {
 }
 
 .fa-linkedin:hover{
-    background: #0072b1;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
 
 .fa-instagram { 
@@ -651,7 +651,7 @@ ul.no-bullets {
 }
 
 .fa-instagram:hover{
-    background: #E1306C;
+    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
   
   
@@ -661,7 +661,7 @@ ul.no-bullets {
 }
 
 .fa-github:hover{
-    background: black;
+    background:linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
   
 #socials{
