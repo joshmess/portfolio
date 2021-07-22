@@ -596,6 +596,7 @@ ul.no-bullets {
 }
 
 .fa-file:hover{
+    color: black;
     background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%)  ;
 }
 
@@ -613,6 +614,7 @@ ul.no-bullets {
 }
 
 .fa-link:hover{
+    color: black;
     background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%)  ;
 }
 
@@ -622,6 +624,7 @@ ul.no-bullets {
 }
 
 .fa-twitter:hover{
+    color: black;
     background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
 
@@ -631,6 +634,7 @@ ul.no-bullets {
 }
 
 .fa-facebook:hover{
+    color: black;
     background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
 
@@ -640,6 +644,7 @@ ul.no-bullets {
 }
 
 .fa-linkedin:hover{
+    color: black;
     background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
 
@@ -649,6 +654,7 @@ ul.no-bullets {
 }
 
 .fa-instagram:hover{
+    color: black;
     background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
   
@@ -659,6 +665,7 @@ ul.no-bullets {
 }
 
 .fa-github:hover{
+    color: black;
     background:linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
 }
   
