@@ -13,6 +13,8 @@ body{
     color: #cdcdcd;
     font-family: "DejaVu Sans Mono", monospace;
 }
+
+ul.navbar a:hover {color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);}
   
 #particles-js{
     position: fixed;
@@ -39,13 +41,13 @@ body{
 }
 
 #profilepic{
-    width: 10%;
-    height: 10%;
-    min-width: 150px;
-    border: 3px solid transparent;
-    border-radius: 100%;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
     border-image-slice: 1;
+    height: 200px;
+    margin: 20px auto;
+    width: 200px;
   }
   
 #greetingDiv{
