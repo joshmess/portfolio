@@ -534,7 +534,7 @@ footer{
   
 .fa-code { 
     
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: white;
     background: #808080;
 
     padding: 5px;
@@ -600,7 +600,7 @@ ul.no-bullets {
 
 
 .fa-file { 
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: white;
     background: #808080;
 }
 
@@ -610,7 +610,7 @@ ul.no-bullets {
 }
 
 .fa-link { 
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: white;
     background: #808080;
 
     padding: 5px;
@@ -628,7 +628,7 @@ ul.no-bullets {
 }
 
 .fa-twitter { 
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: white;
     background: #808080;
 }
 
@@ -638,7 +638,7 @@ ul.no-bullets {
 }
 
 .fa-facebook { 
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: white;
     background: #808080;
 }
 
@@ -648,7 +648,7 @@ ul.no-bullets {
 }
 
 .fa-linkedin { 
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: white;
     background: #808080;
 }
 
@@ -659,7 +659,7 @@ ul.no-bullets {
 
 .fa-instagram { 
     background: #808080;
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: white;
 }
 
 .fa-instagram:hover{
@@ -670,7 +670,7 @@ ul.no-bullets {
   
 .fa-github { 
     background: #808080; 
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: white;
 }
 
 .fa-github:hover{
