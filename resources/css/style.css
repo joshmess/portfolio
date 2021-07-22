@@ -43,14 +43,14 @@ body{
     width: 10%;
     height: 10%;
     min-width: 150px;
-    border-radius: 1000px;
+    border-radius: 50%;
     padding: 10px;
+    align-self: center;
 }
 #profilepic{
     width: 10%;
     height: 10%;
-    min-width: 150px;
-    border-radius: 1000px;
+    border-radius: 50%;
 
   }
   
