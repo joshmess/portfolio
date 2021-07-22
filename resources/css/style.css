@@ -38,20 +38,13 @@ body{
     justify-content: center;
 }
 
-#profPicDiv{
-    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
-    width: 10%;
-    height: 10%;
-    min-width: 150px;
-    border-radius: 50%;
-    padding: 10px;
-    align-self: center;
-}
 #profilepic{
     width: 10%;
     height: 10%;
-    border-radius: 50%;
-
+    min-width: 150px;
+    border-radius: 100%;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    border-image-slice: 1;
   }
   
 #greetingDiv{
