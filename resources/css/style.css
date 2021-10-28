@@ -11,6 +11,7 @@ body{
     max-width: 100% !important;
     max-height: 100% !important;
     color: #cdcdcd;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     font-family: "DejaVu Sans Mono", monospace;
 }
 
