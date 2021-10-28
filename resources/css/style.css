@@ -634,7 +634,7 @@ ul.no-bullets {
 
 .fa-twitter:hover{
     color: black;
-    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    background: #1DA1F2 ;
 }
 
 .fa-facebook { 
@@ -644,7 +644,7 @@ ul.no-bullets {
 
 .fa-facebook:hover{
     color: black;
-    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    background: #3b5998  ;
 }
 
 .fa-linkedin { 
@@ -654,7 +654,7 @@ ul.no-bullets {
 
 .fa-linkedin:hover{
     color: black;
-    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    background: #2867b2 ;
 }
 
 .fa-instagram { 
@@ -664,7 +664,7 @@ ul.no-bullets {
 
 .fa-instagram:hover{
     color: black;
-    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    background: linear-gradient(to bottom right, #8a3ab9 0%, #e95950 25%, #bc2a8d 50%, #fccc63 75%, #cd486b 100%) ;
 }
   
   
@@ -675,7 +675,7 @@ ul.no-bullets {
 
 .fa-github:hover{
     color: black;
-    background:linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    background: white ;
 }
   
 #socials{
