@@ -487,7 +487,7 @@ nav ul{
 #projectGIF{
     border: 3px solid transparent;
     margin-bottom: 15px;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    border-image: #000000;
     border-image-slice: 1;
 }
 
