@@ -485,7 +485,7 @@ nav ul{
 }
 
 #projectGIF{
-    border: 3px solid #1a1a1a;
+    border: 3px solid transparent;
     margin-bottom: 15px;
     border-image-slice: 1;
 }
