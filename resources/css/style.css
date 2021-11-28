@@ -265,10 +265,10 @@ nav ul{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: max(50px, 20%);
-    height: max(50px, 20%);
-    min-width: 150px;
-    min-height: 150px;
+    width: max(100px, 30%);
+    height: max(100px, 30%);
+    min-width: 250px;
+    min-height: 250px;
     border: 3px solid transparent;
     border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
     border-image-slice: 1;
