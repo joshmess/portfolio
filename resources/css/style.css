@@ -120,7 +120,7 @@ nav li{
 
 nav ul{
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase; 
+    text-transform: lowercase; 
 }
 
 #menuToggle{
@@ -663,7 +663,7 @@ ul.no-bullets {
 
 .fa-instagram:hover{
     color: black;
-    background: linear-gradient(to bottom right, #8a3ab9 0%, #e95950 20%, #bc2a8d 40%, #fccc63 60%, #cd486b 80%, #405de6 100%) ;
+    background: #bc2a8d ;
 }
   
   
