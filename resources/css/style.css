@@ -265,7 +265,7 @@ nav ul{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: max(100px, 30%);
+    width: max(150px, 30%);
     height: max(100px, 30%);
     min-width: 250px;
     min-height: 250px;
