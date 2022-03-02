@@ -108,7 +108,7 @@
                             <li><span><b>C++:</b></span><span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>
                             </li>
                             <li><span><b>Assembly (MIPS, x86): </b></span><span class="fa fa-star checked"></span>
@@ -130,8 +130,8 @@
                                 <span class="fa fa-star"></span>
                             </li>
                             <li>
-                                <span><b>Frameworks & Technologies: </b></span>
-                                <span>PyTorch, TensorFlow, Django, Flask, R, MATLAB, SQL, HTML, CSS, Prolog, Systems ToolKit (STK), IDA Pro, Ghidra</span>
+                                <span><b>Frameworks: </b></span>
+                                <span>PyTorch, TensorFlow, Django, Flask, R, MATLAB, SQL, HTML, CSS, Prolog, Systems ToolKit (STK), IDA Pro, Ghidra, Pin (Dynamic Analysis)</span>
                             </li>
                         </ul>
   
@@ -242,7 +242,7 @@
                     <div class="row no-gutters" id="projectRowBottom">
                         <ul id="projectDescription" type="square">
                             <li>
-                                <i>Mission Operations Team Lead (1/2021-1-2022)</i>
+                                <i>Mission Operations Team Lead (1/2021-1/2022)</i>
                             </li>
                             <li>
                                 <i>Mission Operations Team Member (11/2020-1/2021)</i>
@@ -401,6 +401,8 @@
 
 
         <div class="jumbotron jumbotron-fluid m-0 bg-transparent bgstyle text-light" id="projects">
+
+
             <div class="container-fluid">
                 <div class="row no-gutters" id="galleryTitle">
                     <h1>Projects</h1>
@@ -435,6 +437,45 @@
                     </ul>
                 </div>
             </div>
+
+
+
+            <div class="row no-gutters" id="projectRow">
+                <div class="row no-gutters" id="projectRowTop">
+                    <img class="project" id="projectGIF" src="resources/img/overflow-detection.gif" width="550" height="350">
+                </div>
+                
+
+
+
+                <div class="row no-gutters" id="projectRowMiddle">
+                    <h4 id="projectTitle" style="color: #1a1a1a">Dynamic Memory Overflow Detection Using Taint Analysis</h4>
+                </div>
+                <div id="socialsBox">
+                    <ul id="socials">
+                        <li><a href="https://github.com/joshmess/" class="fa fa-code"></a></li>
+                        <li id="space"><p>****</p></li>
+                    </ul>
+                </div>
+                <div class="row no-gutters" id="projectRowMiddle">
+                    <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Software Security & Cyber Forensics</i> | Spring 2022</h6>
+                </div>
+                <div class="row no-gutters" id="projectRowBottom">
+                    <ul id="projectDescription" type="square">
+                        <li>
+                            This project detect control-hijacking attacks on a system.
+                        </li>
+                        <li>
+                            Written in C++/C, this program marks all input bytes from a user as tainted and tracks the propagation of those bytes through program execution. 
+                        </li>
+                        <li>
+                            It then detects if a tainted byte is used in an control-flow instruction (signaling an attack) and alerts the user.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
 
                 <div class="row no-gutters" id="projectRow">
                     <div class="row no-gutters" id="projectRowTop">
