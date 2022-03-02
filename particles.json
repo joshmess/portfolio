@@ -47,14 +47,14 @@
       },
       "line_linked": {
         "enable": true,
-        "distance": 60,
+        "distance": 40,
         "color": "#1a1a1a",
         "opacity": 0.17909156761515996,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 1.65,
+        "speed": 2.25,
         "direction": "none",
         "random": true,
         "straight": false,
@@ -71,11 +71,11 @@
       "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "repulse"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
