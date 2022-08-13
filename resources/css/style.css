@@ -45,7 +45,7 @@ ul.navbar a:hover {color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 2
     height: 10%;
     min-width: 150px;
     min-height: 150px;
-    border: 3px solid #1a1a1a;
+    border: transparent;
     border-radius: 100%;
   }
   
@@ -268,7 +268,7 @@ nav ul{
     height: max(100px, 30%);
     min-width: 250px;
     min-height: 250px;
-    border: #1a1a1a;
+    border: transparent;
 }
 
 #hello{
