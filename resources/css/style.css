@@ -68,7 +68,7 @@ ul.navbar a:hover {color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 2
 
 .arrow {
     position: absolute;
-    color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    color: #1a1a1a;
     bottom: 12.5%;
   }
   
@@ -269,7 +269,7 @@ nav ul{
     min-width: 250px;
     min-height: 250px;
     border: 3px solid transparent;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%) ;
+    border-image: #1a1a1a ;
     border-image-slice: 1;
 }
 
