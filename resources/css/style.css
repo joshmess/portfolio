@@ -600,7 +600,7 @@ ul.no-bullets {
 
 .fa-file:hover{
     color: black;
-    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%)  ;
+    background: black  ;
 }
 
 .fa-link { 
@@ -618,7 +618,7 @@ ul.no-bullets {
 
 .fa-link:hover{
     color: black;
-    background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%)  ;
+    background: black ;
 }
 
 .fa-twitter { 
