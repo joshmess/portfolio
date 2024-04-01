@@ -6,7 +6,7 @@ html{
 body{
     padding: 0;
     margin: 0;
-    background: #f0f8ff;
+    background: #181819;
     overflow: hidden !important;
     max-width: 100% !important;
     max-height: 100% !important;
@@ -24,7 +24,7 @@ ul.navbar a:hover {color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 2
 }
 
 #logo{
-    color: #1a1a1a;
+    color: #bdbbbb;
     font : "Courier New", "Courier", monospace;
  
 }
@@ -58,7 +58,7 @@ ul.navbar a:hover {color: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 2
   
 #greeting {
     margin-top: 10px;
-    color: #1a1a1a;
+    color: #bdbbbb;
 } 
   
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
