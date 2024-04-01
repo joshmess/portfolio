@@ -32,9 +32,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#experience">experience</a>
                     </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#projects">projects</a>
-                  </li>
+
                     <li class="nav-item">
                     <a class="nav-link" href="resources/img/Resume-August-2022.pdf">resume</a>
                   </li>
@@ -55,7 +53,7 @@
                     <h2 id="hello" style="color: #1a1a1a">Hi, I'm Josh!</h4>
                     <div id="greetingDiv">
                         <p id="greeting">
-                            <a class="typewrite" data-period="2000" data-type='[ "I am an information security engineer at Appian.",  "I am results-oriented.","I am driven.","I am outgoing.","I am strategic.","I hope to use my skills to create meaningful change."]'>
+                            <a class="typewrite" data-period="2000" data-type='[ "I am results-oriented.","I am driven.","I am outgoing.","I am strategic."]'>
                                 <span class="wrap"></span>
                             </a>
                         </p>
@@ -83,7 +81,7 @@
         <div class="jumbotron jumbotron-fluid min-vh-100 m-0 bg-transparent bgstyle text-light" id="about">
             <div class="container container-fluid text-center" id="aboutMeContainer">
                 <h1 id="educationTitle">About Me</h1>
-                <img id="educationPic" src="resources/img/about.JPG"><br>
+                <img class="project" id="profilepic" src="resources/img/about.JPG">
 
                 <p id="aboutMeText">
                     <div class="aboutMeParagraph">I hold a bachelors and a masters degree in computer science from the University of Georgia where I graduated summa cum laude. I am passionate about the intersection between technology and health, and cyber security is my specialty. </div>
@@ -232,7 +230,8 @@
                         </ul>
                     </div>
                 </div>
-
+                
+               
                 <div class="row no-gutters" id="projectRow">
                     <div class="row no-gutters" id="projectRowTop">
                         <img class="project" id="projectGIF" src="resources/img/grad-photo2.jpg" width="400" height="284">
@@ -241,7 +240,7 @@
                       <div class="row no-gutters" id="projectRowMiddle">
                         <h4 id="projectTitle" style="color: #1a1a1a;">UGA Division of Academic Enhancement</h4>
                     </div>
-
+                    
                     <div class="row no-gutters" id="projectRowMiddle">
                         <h6 id="projectSubtitle" style="color: #1a1a1a;"><b><i>Computer Science Tutor</i> | 8/2020-1/2021</b></h6>
                     </div>
@@ -302,472 +301,63 @@
                     <div class="row no-gutters" id="projectRowTop">
                         <img class="project" id="projectGIF" src="resources/img/malpredict.gif" width="550" height="350">
                     </div>
-                    
-
-                <div class="row no-gutters" id="projectRowMiddle">
-                    <h4 id="projectTitle" style="color: #1a1a1a">MalDash</h4>
-                </div>
-                <div id="socialsBox">
-                    <ul id="socials">
-                        <li><a href="https://github.com/joshmess/MalDash" class="fa fa-code"></a></li>
-                        <li id="space"><p>****</p></li>
-                    </ul>
-                </div>
-                <div class="row no-gutters" id="projectRowMiddle">
-                    <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Cyber Security & Malware Analysis</i> | Spring 2021-Fall 2022</h6>
-                </div>
-                <div class="row no-gutters" id="projectRowBottom">
-                    <ul id="projectDescription" type="square">
-                        <li>
-                            Today, more and more malware is disguising itself in encrypted network traffic, leveraging protocols like TLS. 
-                        </li>
-                        <li>
-                            MalDash is an online interactive dashboard for network captures designed to help users learn information about their own network captures.
-                        </li>
-                        <li>
-                            I designed and built MalDash in Python using the Flask framework.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <div class="row no-gutters" id="projectRow">
-                <div class="row no-gutters" id="projectRowTop">
-                    <img class="project" id="projectGIF" src="resources/img/dp-ml.gif" width="550" height="350">
                 </div>
                 
-
-
-
-                <div class="row no-gutters" id="projectRowMiddle">
-                    <h4 id="projectTitle" style="color: #1a1a1a">Differentially-private Image Classification</h4>
-                </div>
-                <div id="socialsBox">
-                    <ul id="socials">
-                        <li><a href="https://github.com/joshmess/differentially_private_image_classification" class="fa fa-code"></a></li>
-                        <li id="space"><p>****</p></li>
-                    </ul>
-                </div>
-                <div class="row no-gutters" id="projectRowMiddle">
-                    <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Privacy-preserving Data Analysis</i> | Spring 2022</h6>
-                </div>
-                <div class="row no-gutters" id="projectRowBottom">
-                    <ul id="projectDescription" type="square">
-                        <li>
-                            This project trains multiple machine learning models in an epsilon-differentially private manner on the CIFAR-10 dataset while still maintaining a high accuracy.
-                        </li>
-                        <li>
-                            There is both a python script and a Jupyter Notebook.
-                        </li>
-                        <li>
-                            <b>Technology Stack: Python, PyTorch, Opacus, GPUs, Git</b>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <div class="row no-gutters" id="projectRow">
-                <div class="row no-gutters" id="projectRowTop">
-                    <img class="project" id="projectGIF" src="resources/img/overflow-detection.gif" width="550" height="350">
-                </div>
-                
-
-
-
-                <div class="row no-gutters" id="projectRowMiddle">
-                    <h4 id="projectTitle" style="color: #1a1a1a">Dynamic Memory Overflow Detection Using Taint Analysis</h4>
-                </div>
-                <div id="socialsBox">
-                    <ul id="socials">
-                        <li><a href="https://github.com/joshmess/dynamic-memory-overflow-detection" class="fa fa-code"></a></li>
-                        <li id="space"><p>****</p></li>
-                    </ul>
-                </div>
-                <div class="row no-gutters" id="projectRowMiddle">
-                    <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Software Security & Cyber Forensics</i> | Spring 2022</h6>
-                </div>
-                <div class="row no-gutters" id="projectRowBottom">
-                    <ul id="projectDescription" type="square">
-                        <li>
-                            This project detects control-hijacking attacks on a system.
-                        </li>
-                        <li>
-                            Written in C++/C, this program marks all input bytes from a user as tainted and tracks the propagation of those bytes through program execution. 
-                        </li>
-                        <li>
-                            It then detects if a tainted byte is used in an control-flow instruction (signaling an attack) and alerts the user.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-           
-
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/bookaholics.gif" width="550" height="350">
-                    </div>
-                    
-
-
-
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">Bookaholics</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://github.com/dseeler/bookaholics" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Software Engineering</i> | Spring 2021</h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                Bookaholics is an online bookstore system that makes shopping for books easy and enjoyable
-                            </li>
-                            <li>
-                                Designed in Python using the Django framework. Built upon the Model, View, Template architectural style.
-                            </li>
-                            <li>
-                                <b>Technology Stack: Python, Django Framework, HTML/CSS, SQLite, Git</b>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/hashing.gif" width="550" height="350">
-                    </div>
-                    
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">Consistent Hashing-based Naming Service</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://github.com/joshmess/consistent-hashing-naming-service" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Distributed Computing Systems | Spring 2021</i></h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                Consistent hashing provides a lookup service for key-value pairs. The 
-                                CH system stores (key, value) pairs on a distributed set of servers. These servers collaboratively 
-                                provide lookup service along with insertion and deletion. This project implements both the 
-                                CH name servers and a boot-strap CH server, which is a special CH server with certain extra 
-                                functionalities.
-                            </li>
-                            <li>
-                                <b>Technology Stack: Java, Linux</b>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <div class="element">
+                    <div class="row no-gutters" id="projectRow">
+                        <div class="row no-gutters" id="projectRowTop">
+                            <img class="project" id="profilepic" src="resources/img/moci.png">
+                        </div>
     
-
-              
-                
-               
-
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/multicastgif.gif" width="380" height="255">
-                    </div>
-                   
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">Persistent and Asynchronous Multicast System</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://github.com/joshmess/persistent_aysnchronous_mc" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Distributed Computing Systems | Spring 2021</i></h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                A system for supporting persistent asynchronous multicast on top of TCP. This is based on a coordinator-participant paradigm. This project implements both
-                                the mutlicast Coordinator and Participants.
-                            </li>
-                            <li>
-                                Implements temporally-bound persistence, in which if a participant is offline more than some specified time threshold
-                                (say t), upon reconnecting, it will receive messages that were sent in the past t seconds.
-                            </li>
-                            <li>
-                                Multicast participant supports a UI thread to register and deregister, along with sending multicasting messages.
-                            </li>
-                            <li>
-                                <b>Technology Stack: Java, Linux</b>
-                            </li>
-                        </ul>
+                         <div class="row no-gutters" id="projectRowMiddle">
+                            <h4 id="projectTitle" style="color: #1a1a1a;">UGA Small Satellite Research Labratory</h4>
+                        </div>
+    
+                        <div class="row no-gutters" id="projectRowMiddle">
+                            <h6 id="projectSubtitle" style="color: #1a1a1a;"><b>Flight Software Engineer</b></h6>
+    
+                        </div>
+    
                     </div>
                 </div>
 
-
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/traceroute.png" width="340" height="260">
-                    </div>
-                    
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">TCP Traceroute</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://github.com/joshmess/tcp_traceroute" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Computer Networks | Fall 2020</i></h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                TCP SYN packets are used as a secure alternative to UDP pings in my implementation of traceroute.
-                            </li>
-                            <li>
-                                Repository also has a ICMP version of traceroute.
-                            </li>
-                            <li>
-                                Plotly used to generate latency graphics.
-                            </li>
-                            <li>
-                                <b>Technology Stack: Pytohn, Linux, Scapy, Plotly</b>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/download.jpg" width="380" height="232">
-                    </div>
-                    
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">HTTP Download Accelerator</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://github.com/joshmess/download-accelerator" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Computer Networks | Fall 2020</i></h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                Parallel HTTP Range requests are used in an architecture that significantly increases standard HTTP download times.
-                            </li>
-                            <li>
-                                Scapy module used for network communication programming.
-                            </li>
-                            <li>
-                                UDP packets sent.
-                            </li>
-                            <li>
-                                <b>Technology Stack: Python, Linux, Scapy</b>
-                            </li>
-                        </ul>
+                <div class="element">
+                    <div class="row no-gutters" id="projectRow">
+                        <div class="row no-gutters" id="projectRowTop">
+                            <img class="project" id="profilepic" src="resources/img/four-towers.jpg">
+                        </div>
+    
+                         <div class="row no-gutters" id="projectRowMiddle">
+                            <h4 id="projectTitle" style="color: #1a1a1a">UGA Visitor Center</h4>
+                        </div>
+    
+                        <div class="row no-gutters" id="projectRowMiddle">
+                            <h6 id="projectSubtitle" style="color: #1a1a1a;"><b>Tour Leader</b></h6>
+                        </div>
+    
                     </div>
                 </div>
 
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/computer-networks.jpg" width="380" height="253">
-                    </div>
-                    
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">DOH-Capable DNS Forwarder</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://github.com/joshmess/dns_forwarder" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Computer Networks | Fall 2020</i></h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                This project uses Python to build a simple DNS forwarder with domain blocking and DoH capabilities. 
-                                This DNS forwarder receives an arbitrary DNS message from a client, checks if the domain name should be blocked, and if so responds with an NXDomain message. 
-                                If the queried domain name is allowed, it forwards the DNS message to either a standard DNS resolver or a DoH-capable resolver and wait for the response from 
-                                the resolver and forward it back to the client.
-                            </li>
-                            <li>
-                                Scapy module used for network communication programming.
-                            </li>
-                            <li>
-                                <b>Technology Stack: Pytohn, Linux, Scapy</b>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-               
-               
-
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/moci.png" width="300" height="260">
-                    </div>
-                    
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="http://www.smallsat.uga.edu/missions" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a;">Multiview Onboard Computational Image (MOCI) Satellite</h4>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>6U CubeSat</i> | *Launch Q2 2022</h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                In early 2018 the student team in the UGA SSRL was selected as one of only two winners of the US Air Force Research Laboratory University Nanosatellite Program (Competition NS-9) Flight Selection Review for our MOCI (Multi-view Onboard Computational Imager) spacecraft.
-                            </li>
-                            <li>
-                                The Multi-view Onboard Computational Imager (MOCI) mission shall acquire imagery of the Earth’s surface from (Low Earth Orbit) LEO and perform near real time Structure from Motion (SfM) at a landscape scale using custom algorithms and off the shelf, high performance computational units. 
-                            </li>
-                            <li>
-                                Some goals of this mission are to effectively perform object detection and provide community leaders and students with instructional workshops. 
-                            </li>
-                            <li>
-                                As Mission Operations Lead, I am responsible for the development and maintenance of UGA's Ground Station.
-                            </li>
-                            <li>
-                                I am also responsible for proof of readiness tests, which my team and I have tried to automate using a Telemetry and Telecommanding (TM/TC) Python API.
-                            </li>
-                            <li>
-                                <b> HAM Radio Licensed Technician </b>
-                            </li>
-                            <li>
-                                <b>University Nanosatellite Program</b>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-               
-                
-               
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/dns.gif" width="550" height="350">
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">DNSSEC and Its Risk for DDoS Attacks</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://github.com/joshmess/DNSSEC_DDoS_Potential" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Computer Networks Presentation</i></h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                A comprehensive study analyzing the effects of DNSSEC on DDoS Amplification Attacks. (See GitHub)
-                            </li>
-                            <li>
-                                I concluded that DNSSEC, specifically when used in conjunction with ANY queries, significantly increases the risk of DNSSEC Amplification Attacks.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/aadmswe.png" width="370" height="225">
-                    </div>
-                    
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a;">Freedom Fund Web Scraper</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://github.com/joshmess/AADM-Freedom-Fund" class="fa fa-code"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Data4Good</i> | April 2021-Present</h6>
-                    </div>
-                    
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                The Athens Anti-Discrimination Movement (AADM) recently established the Freedom Fund, which aims to support low-income individuals being held in jail pre-trial.
-                            </li>
-                            <li>
-                                Myself and group of other computer scientists at UGA--in conjunction with Data4Good and the AADM--are developing a web-scarping application to analyze inmate data and help support the Freedom Fund locate individuals elidgable for bail. 
-                            </li>
-                            <li>
-                                A main goal of the Freedom Fund is to help those being held as a result of protesting or excersizing their first amendment rights. 
-                            </li>
-                            <li>
-                                This project was launched in March and development is currently underway. 
-                            </li>
-                             <li>
-                                 <b>Technology Stack: Python, HTML/CSS, Flask, SQLlite, SQLAlchemy</b> 
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row no-gutters" id="projectRow">
-                    <div class="row no-gutters" id="projectRowTop">
-                        <img class="project" id="projectGIF" src="resources/img/portfolio.gif" width="550" height="350">
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h4 id="projectTitle" style="color: #1a1a1a">This Website</h4>
-                    </div>
-                    <div id="socialsBox">
-                        <ul id="socials">
-                            <li><a href="https://joshmessitte.dev" class="fa fa-link"></a></li>
-                            <li id="space"><p>****</p></li>
-                        </ul>
-                    </div>
-                    <div class="row no-gutters" id="projectRowMiddle">
-                        <h6 id="projectSubtitle" style="color: #1a1a1a;"><i>Personal Website</i></h6>
-                    </div>
-                    <div class="row no-gutters" id="projectRowBottom">
-                        <ul id="projectDescription" type="square">
-                            <li>
-                                This website is hosted wih GitHub pages.
-                            </li>
-                            <li>
-                                This website leverages HTML/CSS, Bootstrap, as well as Particles.js.
-                            </li>
-                        </ul>
+                <div class="element">
+                    <div class="row no-gutters" id="projectRow">
+                        <div class="row no-gutters" id="projectRowTop">
+                            <img class="project" id="profilepic" src="resources/img/tic.jpg">
+                        </div>
+    
+                         <div class="row no-gutters" id="projectRowMiddle">
+                            <h4 id="projectTitle" style="color: #1a1a1a">TIC Summer Camp</h4>
+                        </div>
+    
+                        <div class="row no-gutters" id="projectRowMiddle">
+                            <h6 id="projectSubtitle" style="color: #1a1a1a;"><b>Technology Counselor</b></h6>
+                        </div>
+    
                     </div>
                 </div>
 
             </div>
         </div>
+    
          <div class="jumbotron jumbotron-fluid min-vh-100 m-0 bg-transparent bgstyle text-light" id="contact">
             <div class="container container-fluid text-center" id="aboutMeContainer">
                 <h1 id="educationTitle">Contact Me</h1>
