@@ -699,6 +699,40 @@ ul.no-bullets {
 }
 
 
+
+
+
+
+#newAboutMe{
+    list-style-type: none;
+}
+  
+#newAboutMe li{
+    display: inline;
+    float: left;
+    
+}
+  
+#newAboutMe li a{
+      text-align: center;
+      text-decoration: none;
+}
+  
+#newAboutMe li a:hover {
+    color: white;
+    transition: all 0.5s ease;
+}
+  
+#newAboutMe li a:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
 #sparc-mac-pic{
     display: none;
     list-style-type: none;
