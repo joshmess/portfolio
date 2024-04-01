@@ -705,6 +705,7 @@ ul.no-bullets {
 
 #newAboutMe{
     list-style-type: none;
+    padding-top: 30px;
 }
   
 #newAboutMe li{
