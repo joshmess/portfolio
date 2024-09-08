@@ -90,11 +90,11 @@ nav ul{
     margin: 5px 2px;
     border-radius: 10%;
 }
-.fa-twitter {
+.fa-x {
     color: white;
     background: #808080;
 }
-.fa-twitter:hover{
+.fa-x:hover{
     color: black;
     background: #1DA1F2 ;
 }
